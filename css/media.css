@@ -1,0 +1,152 @@
+/* Start media Query */
+
+
+
+/*this style from 0 screen to mobile screen*/
+@media (max-width:768px){
+    .header h1{
+        text-align: center;
+        font-size: 50px
+
+    }
+    .header h1 ~ .lead{
+        text-align: center;
+        font-size: 18px
+    }
+    .header p {
+        text-align: center
+    }
+    .header a {
+        margin: 20px auto
+
+    }
+    .header .centering-vh{
+        margin-top: 80px
+    }
+    .header form .form-control{
+            margin: 0px auto 30px;
+    }
+    .header button{
+        margin: 20px auto
+    }
+    .header h1 ~ .lead:after {
+    margin: 25px auto;
+    }
+   .social-media i{
+        font-size: 28px
+    }
+    .tabs .tabs-switch ul {
+      width: 60%;
+      margin: auto;
+    }
+    .tabs .tabs-switch li {
+      margin: auto !important;
+    }
+    .tabs #tab1-content h2, .tabs #tab2-content h2, .tabs #tab3-content h2{
+        text-align: center
+    }
+    .tabs #tab1-content p, .tabs #tab2-content p, .tabs #tab3-content p{
+        text-align: center
+    }
+    .tabs #tab1-content a, .tabs #tab2-content a, .tabs #tab3-content a{
+        text-align: center;
+        display: block
+    }
+    .sublist .sublist-content h2, .stander .stander-content h2{
+        text-align: center
+    }
+    .sublist .sublist-content h2:after, .stander .stander-content h2:after{
+        margin: 25px auto
+    }
+    .sublist .sublist-content .parag, .stander .stander-content .parag{
+        text-align: center;
+    }
+    .sublist .sublist-content h2:after,
+    .stander .stander-content h2:after {
+    margin: 25px auto;
+    }
+    .awsome h1, .pricing h1, .testimonial h1{
+        font-size: 25px
+    }
+    .pricing .price-box{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:320px) and (max-width:500px) {
+  .tabs .tabs-switch ul li {
+    width: 100% !important;
+
+  }
+
+}
+
+/*from small to media screen*/
+@media (min-width:768px) and (max-width:991px){
+
+       .header h1{
+        text-align: center;
+        font-size: 50px
+
+    }
+        .header h1 ~ .lead{
+        text-align: center;
+        font-size: 18px
+    }
+       .header p {
+        text-align: center
+    }
+       .header a {
+        margin: 20px auto
+    }
+        .header .centering-vh{
+        margin-top: 80px
+    }
+    .header form .form-control{
+            margin: 0px auto 30px;
+    }
+    .header button{
+        margin: 20px auto
+    }
+
+    .header h1 ~ .lead:after {
+    margin: 25px auto;
+    }
+
+    .social-media i{
+        font-size: 28px
+    }
+
+    .tabs #tab1-content h2, .tabs #tab2-content h2, .tabs #tab3-content h2{
+        text-align: center
+    }
+    .tabs #tab1-content p, .tabs #tab2-content p, .tabs #tab3-content p{
+        text-align: center
+    }
+    .tabs #tab1-content a, .tabs #tab2-content a, .tabs #tab3-content a{
+        text-align: center;
+        display: block
+    }
+    .sublist .sublist-content h2, .stander .stander-content h2{
+        text-align: center
+    }
+    .sublist .sublist-content h2:after, .stander .stander-content h2:after{
+        margin: 25px auto
+    }
+    .sublist .sublist-content .parag, .stander .stander-content .parag{
+        text-align: center;
+    }
+    .sublist .sublist-content h2:after,
+    .stander .stander-content h2:after {
+    margin: 25px auto;
+    }
+    .awsome h1, .pricing h1, .testimonial h1{
+        font-size: 25px
+    }
+    .pricing .price-box{
+        margin-bottom: 20px;
+    }
+
+}
+
+/* End media Query */
